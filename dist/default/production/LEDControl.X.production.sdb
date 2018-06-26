@@ -1,0 +1,170 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1459 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"13 C:\Users\Ethan\MPLABXProjects\LEDControl.X\main.c
+[v _rainbow rainbow `(v  1 e 1 0 ]
+"95
+[v _fade fade `(v  1 e 1 0 ]
+"105
+[v _strobe strobe `(v  1 e 1 0 ]
+"115
+[v _main main `(i  1 e 2 0 ]
+"4 C:\Users\Ethan\MPLABXProjects\LEDControl.X\neopixel.c
+[v _neoRGB neoRGB `(v  1 e 1 0 ]
+"52
+[v _neoArray neoArray `(v  1 e 1 0 ]
+"16 C:\Users\Ethan\MPLABXProjects\LEDControl.X\UBMP2.c
+[v _initOsc initOsc `(v  1 e 1 0 ]
+"25
+[v _initPorts initPorts `(v  1 e 1 0 ]
+"1002 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1459.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1029
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1068
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1239
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1502
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1676
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"1756
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1822
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"1864
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1891
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"1930
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2517
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2546
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2582
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4299
+[v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
+"6639
+[v _PLLRDY PLLRDY `VEb  1 e 0 @1238 ]
+"6717
+[v _RA3 RA3 `VEb  1 e 0 @99 ]
+"6723
+[v _RB4 RB4 `VEb  1 e 0 @108 ]
+"6725
+[v _RB5 RB5 `VEb  1 e 0 @109 ]
+"6727
+[v _RB6 RB6 `VEb  1 e 0 @110 ]
+"10 C:\Users\Ethan\MPLABXProjects\LEDControl.X\main.c
+[v _isOn isOn `uc  1 e 1 0 ]
+"5 C:\Users\Ethan\MPLABXProjects\LEDControl.X\modes.h
+[v _mode mode `uc  1 e 1 0 ]
+"16 C:\Users\Ethan\MPLABXProjects\LEDControl.X\neopixel.h
+[v _redArray redArray `[24]uc  1 e 24 0 ]
+"17
+[v _blueArray blueArray `[24]uc  1 e 24 0 ]
+"18
+[v _greenArray greenArray `[24]uc  1 e 24 0 ]
+"20
+[v _maxLEDs maxLEDs `DCuc  1 e 1 0 ]
+"22
+[v _arrayIndex arrayIndex `c  1 e 1 0 ]
+"24
+[v _temp temp `uc  1 e 1 0 ]
+"115 C:\Users\Ethan\MPLABXProjects\LEDControl.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"222
+} 0
+"105
+[v _strobe strobe `(v  1 e 1 0 ]
+{
+[v strobe@arraySize arraySize `uc  1 a 1 wreg ]
+"108
+[v strobe@i i `uc  1 a 1 12 ]
+"105
+[v strobe@arraySize arraySize `uc  1 a 1 wreg ]
+"108
+[v strobe@arraySize arraySize `uc  1 a 1 11 ]
+"113
+} 0
+"13
+[v _rainbow rainbow `(v  1 e 1 0 ]
+{
+"17
+[v rainbow@eighth eighth `uc  1 a 1 3 ]
+"16
+[v rainbow@quarter quarter `uc  1 a 1 2 ]
+"15
+[v rainbow@half half `uc  1 a 1 1 ]
+"93
+} 0
+"52 C:\Users\Ethan\MPLABXProjects\LEDControl.X\neopixel.c
+[v _neoArray neoArray `(v  1 e 1 0 ]
+{
+[v neoArray@arraySize arraySize `uc  1 a 1 wreg ]
+"93
+[v neoArray@i_114 i `uc  1 a 1 8 ]
+"80
+[v neoArray@i_113 i `uc  1 a 1 7 ]
+"67
+[v neoArray@i i `uc  1 a 1 6 ]
+"58
+[v neoArray@tempIndex tempIndex `c  1 a 1 5 ]
+"52
+[v neoArray@arraySize arraySize `uc  1 a 1 wreg ]
+[v neoArray@leds leds `uc  1 p 1 0 ]
+[v neoArray@offset offset `c  1 p 1 1 ]
+"55
+[v neoArray@arraySize arraySize `uc  1 a 1 9 ]
+"116
+} 0
+"25 C:\Users\Ethan\MPLABXProjects\LEDControl.X\UBMP2.c
+[v _initPorts initPorts `(v  1 e 1 0 ]
+{
+"42
+} 0
+"16
+[v _initOsc initOsc `(v  1 e 1 0 ]
+{
+"21
+} 0
+"95 C:\Users\Ethan\MPLABXProjects\LEDControl.X\main.c
+[v _fade fade `(v  1 e 1 0 ]
+{
+[v fade@arraySize arraySize `uc  1 a 1 wreg ]
+"98
+[v fade@i i `uc  1 a 1 12 ]
+"95
+[v fade@arraySize arraySize `uc  1 a 1 wreg ]
+"98
+[v fade@arraySize arraySize `uc  1 a 1 11 ]
+"103
+} 0
+"4 C:\Users\Ethan\MPLABXProjects\LEDControl.X\neopixel.c
+[v _neoRGB neoRGB `(v  1 e 1 0 ]
+{
+[v neoRGB@red red `uc  1 a 1 wreg ]
+"37
+[v neoRGB@i_106 i `uc  1 a 1 7 ]
+"24
+[v neoRGB@i_105 i `uc  1 a 1 6 ]
+"11
+[v neoRGB@i i `uc  1 a 1 5 ]
+"4
+[v neoRGB@red red `uc  1 a 1 wreg ]
+[v neoRGB@green green `uc  1 p 1 0 ]
+[v neoRGB@blue blue `uc  1 p 1 1 ]
+[v neoRGB@leds leds `uc  1 p 1 2 ]
+"7
+[v neoRGB@red red `uc  1 a 1 4 ]
+"49
+} 0
